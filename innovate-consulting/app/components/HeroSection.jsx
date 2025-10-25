@@ -11,7 +11,7 @@ export default function HomePage({title, subtitle, cta}) {
     <main className="bg-white text-gray-900">
 
       {/* ---------------- Hero Section ---------------- */}
-       <section className="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 py-16 bg-slate-400">
+       <section className="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 py-16 pt-24 bg-slate-400">
         <div className="md:w-1/2 text-left mb-10 md:mb-0">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
